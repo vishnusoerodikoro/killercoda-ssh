@@ -1,0 +1,42 @@
+{
+  "title": "SSH — Secure Remote Access",
+  "description": "Pelajari cara kerja SSH dari dasar: key pair, password-less login, dan SSH config. Lab ini mensimulasikan koneksi client-server menggunakan 2 user di satu node.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Setup: Buat User sshserver",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Koneksi Pertama via Password",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Generate SSH Key Pair",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Copy Public Key ke Server",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Login Tanpa Password",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu:2204"
+  }
+}
